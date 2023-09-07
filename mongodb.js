@@ -5,7 +5,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 // // import { MongoClient } from 'mongodb'
 
 // // Connection URL
-const url = 'mongodb+srv://aryansingh143001:mongo2023@cluster0.6b3ejpx.mongodb.net/';
+const url = process.env.TEST_URL;
 // const client = new MongoClient(url);
 
 // Database Name
